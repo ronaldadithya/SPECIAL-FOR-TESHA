@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".kalkulator">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="TOTAL TAGIHAN:"
+        android:textSize="40dp"
+        android:id="@+id/editTagihan"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:id="@+id/angka_tagihan"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:text="Jumlah Pembayaran"
+        android:textSize="40dp"
+        android:id="@+id/jumlah"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:hint="Masukan Jumlah Uang"
+        android:id="@+id/jumlah_angka"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:text="Kembalian"
+        android:textSize="40dp"
+        android:id="@+id/kembali"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:hint="TOTAL KEMBALIAN"
+        android:id="@+id/kembali_angka"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
+
+
+
+
+
+
